@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="360" height="640">
+  <defs>
+    <linearGradient id="bgHighTech" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="60%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0A2540" />
+    </linearGradient>
+    <linearGradient id="glowHighTech" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="360" height="640" rx="16" fill="url(#bgHighTech)" />
+  <circle cx="180" cy="300" r="140" fill="url(#glowHighTech)" />
+
+  <!-- Category Tag -->
+  <g transform="translate(20, 24)">
+    <rect width="200" height="30" rx="15" fill="rgba(56,189,248,0.2)" stroke="#38BDF8" stroke-width="1.5" />
+    <text x="100" y="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#7DD3FC" text-anchor="middle">HIGH-TECH & ACCESSOIRES</text>
+  </g>
+
+  <!-- Product visual illustration -->
+  <g transform="translate(180, 290)">
+    <circle cx="0" cy="0" r="75" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+    <!-- Wireless earbuds case -->
+    <rect x="-40" y="-35" width="80" height="60" rx="20" fill="#38BDF8" opacity="0.9" />
+    <circle cx="-15" cy="-5" r="8" fill="#0A2540" />
+    <circle cx="15" cy="-5" r="8" fill="#0A2540" />
+    <circle cx="0" cy="15" r="3" fill="#22C55E" />
+  </g>
+
+  <!-- Animated sticker teaser -->
+  <g transform="translate(20, 420)">
+    <rect width="220" height="34" rx="8" fill="#FF7A00" />
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">RÉDUCTION DE BRUIT 🎧</text>
+  </g>
+  <g transform="translate(20, 462)">
+    <rect width="180" height="28" rx="6" fill="rgba(0,0,0,0.6)" />
+    <text x="12" y="19" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#A7F3D0">BATTERIE 36 HEURES</text>
+  </g>
+
+  <!-- Title & Action -->
+  <g transform="translate(20, 560)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Écouteurs Sans Fil Bluetooth</text>
+    <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Vidéo verticale avec mise en situation</text>
+  </g>
+
+  <!-- Play Circle -->
+  <g transform="translate(180, 290)">
+    <circle cx="0" cy="0" r="30" fill="rgba(10,37,64,0.85)" stroke="#FF7A00" stroke-width="2" />
+    <polygon points="-6,-10 12,0 -6,10" fill="#FFFFFF" />
+  </g>
+</svg>

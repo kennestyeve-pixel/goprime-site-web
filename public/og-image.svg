@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A2540" />
+      <stop offset="60%" stop-color="#051329" />
+      <stop offset="100%" stop-color="#020914" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FF5000" />
+    </linearGradient>
+    <linearGradient id="wa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25D366" />
+      <stop offset="100%" stop-color="#128C7E" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle grid and decorative rings -->
+  <circle cx="1050" cy="150" r="320" stroke="rgba(255,255,255,0.04)" stroke-width="2" fill="none" />
+  <circle cx="1050" cy="150" r="220" stroke="rgba(255,122,0,0.12)" stroke-width="2" fill="none" />
+  <circle cx="150" cy="550" r="280" stroke="rgba(37,211,102,0.06)" stroke-width="2" fill="none" />
+
+  <!-- Logo Pill -->
+  <g transform="translate(100, 90)">
+    <rect width="210" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+    <circle cx="28" cy="28" r="16" fill="url(#accent)" />
+    <polygon points="25,22 34,28 25,34" fill="#FFFFFF" />
+    <text x="56" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">GoPrime</text>
+  </g>
+
+  <!-- Title -->
+  <text x="100" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" width="850">
+    <tspan x="100" dy="0">Transformez vos photos de produits</tspan>
+    <tspan x="100" dy="64" fill="url(#accent)">en vidéos publicitaires prêtes à publier</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="400" fill="#94A3B8">
+    <tspan x="100" dy="0">Envoyez vos photos sur WhatsApp. Recevez une vidéo verticale 9:16</tspan>
+    <tspan x="100" dy="38">prête pour Facebook, TikTok et Statut WhatsApp. Livraison en 3 jours.</tspan>
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(100, 500)">
+    <!-- WhatsApp Badge -->
+    <rect width="360" height="54" rx="27" fill="url(#wa)" />
+    <text x="40" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Commander sur WhatsApp (+237)</text>
+    
+    <!-- Price Badge -->
+    <rect x="380" width="260" height="54" rx="27" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+    <text x="415" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">À partir de 10 000 FCFA</text>
+  </g>
+</svg>

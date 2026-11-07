@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="360" height="640">
+  <defs>
+    <linearGradient id="bgShoes" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#431407" />
+      <stop offset="60%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0A2540" />
+    </linearGradient>
+    <linearGradient id="glowShoes" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#431407" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="360" height="640" rx="16" fill="url(#bgShoes)" />
+  <circle cx="180" cy="300" r="140" fill="url(#glowShoes)" />
+
+  <!-- Category Tag -->
+  <g transform="translate(20, 24)">
+    <rect width="210" height="30" rx="15" fill="rgba(249,115,22,0.2)" stroke="#F97316" stroke-width="1.5" />
+    <text x="105" y="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#FB923C" text-anchor="middle">CHAUSSURES & SNEAKERS</text>
+  </g>
+
+  <!-- Product visual illustration -->
+  <g transform="translate(180, 290)">
+    <circle cx="0" cy="0" r="75" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+    <!-- Sneaker Silhouette -->
+    <path d="M-45,15 Q-40,0 -20,-15 L10,-25 Q35,-15 45,5 L45,22 Q20,28 -45,22 Z" fill="#F97316" />
+    <path d="M-45,22 Q20,28 45,22 L45,28 Q20,34 -45,28 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- Animated sticker teaser -->
+  <g transform="translate(20, 420)">
+    <rect width="200" height="34" rx="8" fill="#FF7A00" />
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">ÉDITION LIMITÉE 👟</text>
+  </g>
+  <g transform="translate(20, 462)">
+    <rect width="180" height="28" rx="6" fill="rgba(0,0,0,0.6)" />
+    <text x="12" y="19" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#38BDF8">POINTURES DU 39 AU 45</text>
+  </g>
+
+  <!-- Title & Action -->
+  <g transform="translate(20, 560)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Sneakers & Baskets Streetwear</text>
+    <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Vidéo verticale avec vue 360° et finitions</text>
+  </g>
+
+  <!-- Play Circle -->
+  <g transform="translate(180, 290)">
+    <circle cx="0" cy="0" r="30" fill="rgba(10,37,64,0.85)" stroke="#FF7A00" stroke-width="2" />
+    <polygon points="-6,-10 12,0 -6,10" fill="#FFFFFF" />
+  </g>
+</svg>

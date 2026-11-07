@@ -1,0 +1,329 @@
+/* ==========================================================================
+   GOPRIME - RESPONSIVE & UTILITIES STYLES
+   Optimisé pour smartphones Android/iOS (320px, 360px, 375px, 390px, 430px),
+   tablettes (768px, 1024px) et écrans d'ordinateur.
+   ========================================================================== */
+
+/* --- MOBILES & SMARTPHONES (< 768px : 320px, 360px, 375px, 390px, 430px) --- */
+@media (max-width: 767px) {
+  :root {
+    --container-padding: 1rem;
+  }
+
+  /* 1. En-tête mobile compact, élégant et sans débordement */
+  .header-container {
+    height: 60px;
+    gap: var(--spacing-2);
+  }
+
+  .brand-logo {
+    gap: 0.4rem;
+  }
+
+  .brand-logo__mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+  }
+
+  .brand-logo__mark svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .brand-logo__name {
+    font-size: 1.15rem;
+  }
+
+  .site-header .btn--whatsapp {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+    min-height: 36px;
+    gap: 0.35rem;
+    white-space: nowrap;
+  }
+
+  .site-header .btn--whatsapp .btn-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* 2. Sections et en-têtes de section */
+  .page-section {
+    padding: var(--spacing-10) 0;
+  }
+
+  .solutions-overview-section {
+    padding: var(--spacing-8) 0 var(--spacing-6);
+  }
+
+  .section-header {
+    margin-bottom: var(--spacing-6);
+  }
+
+  .section-title {
+    font-size: clamp(1.4rem, 5.5vw, 1.85rem);
+    line-height: 1.22;
+  }
+
+  .section-subtitle {
+    font-size: var(--font-size-sm);
+    line-height: 1.55;
+  }
+
+  /* 3. Section HERO sur mobile */
+  .hero-section {
+    padding: var(--spacing-6) 0 var(--spacing-10);
+    text-align: left;
+  }
+
+  .hero-grid {
+    gap: var(--spacing-8);
+  }
+
+  .hero-title {
+    font-size: clamp(1.55rem, 6.2vw, 2.05rem);
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: var(--font-size-sm);
+    line-height: 1.55;
+    margin-bottom: var(--spacing-5);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-guarantees {
+    gap: var(--spacing-2) var(--spacing-3);
+  }
+
+  .guarantee-item {
+    font-size: var(--font-size-xs);
+  }
+
+  /* 4. Boutons & CTA : lisibles, centrés, adaptatifs sans coupure */
+  .btn {
+    padding: 0.75rem 1.1rem;
+    font-size: var(--font-size-sm);
+    white-space: normal;
+    line-height: 1.35;
+  }
+
+  .motion-design-info-card__footer .btn,
+  .service-showcase-card__actions .btn,
+  .multi-angles-highlight-card__footer .btn,
+  .final-cta-card .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* 5. Lecteurs vidéo 9:16 parfaitement proportionnés sur mobile */
+  .hero-video-card,
+  .motion-video-showcase,
+  .service-video-frame {
+    width: 100%;
+    max-width: min(100%, 310px);
+    margin: 0 auto;
+  }
+
+  .hero-video-card {
+    padding: 8px;
+    border-radius: var(--radius-xl);
+  }
+
+  .hero-video-card__inner {
+    border-radius: calc(var(--radius-xl) - 4px);
+  }
+
+  .comparison-card__media-box {
+    aspect-ratio: 9 / 16;
+    max-height: 460px;
+  }
+
+  /* 6. Cartes et conteneurs : paddings optimisés pour smartphones */
+  .solution-pillar-card,
+  .motion-design-info-card,
+  .service-showcase-card,
+  .value-prop-banner,
+  .method-pillar-card,
+  .speaking-video-box,
+  .cta-example-box,
+  .angle-card,
+  .multi-angles-highlight-card,
+  .benefit-card,
+  .step-card,
+  .promo-campaign-banner,
+  .pricing-card {
+    padding: var(--spacing-5);
+    border-radius: var(--radius-xl);
+  }
+
+  .final-cta-card {
+    padding: var(--spacing-6) var(--spacing-4);
+    border-radius: var(--radius-xl);
+  }
+
+  .final-cta-title {
+    font-size: clamp(1.4rem, 5.5vw, 1.85rem);
+  }
+
+  .final-cta-desc {
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-6);
+  }
+
+  /* 7. Grille tarifaire sur mobile */
+  .pricing-card__discount-badge {
+    right: 16px;
+    font-size: 0.7rem;
+    padding: 0.28rem 0.75rem;
+  }
+
+  .pricing-card__price {
+    font-size: 2.1rem;
+  }
+
+  /* 8. Barre flottante WhatsApp mobile */
+  .mobile-sticky-cta {
+    padding: 0.6rem 0.85rem;
+    gap: var(--spacing-2);
+  }
+
+  .mobile-sticky-info {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .mobile-sticky-cta .btn--whatsapp {
+    padding: 0.45rem 0.85rem;
+    font-size: var(--font-size-xs);
+    min-height: 38px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+}
+
+/* --- ÉCRANS COMPACTS (320px - 375px : petits smartphones Android) --- */
+@media (max-width: 375px) {
+  :root {
+    --container-padding: 0.85rem;
+  }
+
+  .header-container {
+    height: 56px;
+  }
+
+  .brand-logo__mark {
+    width: 30px;
+    height: 30px;
+  }
+
+  .brand-logo__name {
+    font-size: 1.05rem;
+  }
+
+  .site-header .btn--whatsapp {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.68rem;
+    min-height: 34px;
+  }
+
+  .hero-title {
+    font-size: 1.45rem;
+  }
+
+  .hero-video-card,
+  .motion-video-showcase,
+  .service-video-frame {
+    max-width: min(100%, 280px);
+  }
+
+  .solution-pillar-card,
+  .motion-design-info-card,
+  .service-showcase-card,
+  .value-prop-banner,
+  .method-pillar-card,
+  .speaking-video-box,
+  .cta-example-box,
+  .angle-card,
+  .multi-angles-highlight-card,
+  .benefit-card,
+  .step-card,
+  .promo-campaign-banner,
+  .pricing-card {
+    padding: var(--spacing-4);
+  }
+
+  .pricing-card__price {
+    font-size: 1.95rem;
+  }
+}
+
+/* --- TABLETTES (768px - 991px) --- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero-video-card {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+}
+
+/* --- GRANDS ÉCRANS (>= 1200px) --- */
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 3.25rem;
+  }
+}
+
+/* Animations d'apparition discrètes au défilement */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Accessibilité: Respect des préférences d'animation réduite */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .btn--whatsapp-pulse::after {
+    display: none !important;
+  }
+}
+
+/* Économie de données : mode navigation faible débit */
+@media (prefers-reduced-data: reduce) {
+  .hero-section::before,
+  .final-cta-section::before {
+    display: none;
+  }
+}

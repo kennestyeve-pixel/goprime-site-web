@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800" width="450" height="800">
+  <defs>
+    <linearGradient id="phoneBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0A2540" />
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FF4500" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0A2540" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="450" height="800" rx="36" fill="url(#phoneBg)" />
+  
+  <!-- Subtle lighting glow behind product -->
+  <circle cx="225" cy="400" r="180" fill="url(#glowGrad)" />
+
+  <!-- Device frame notch & status bar -->
+  <rect x="150" y="16" width="150" height="22" rx="11" fill="rgba(0,0,0,0.5)" />
+  <circle cx="280" cy="27" r="4" fill="#334155" />
+  
+  <!-- Social Media Overlay Simulation (TikTok / Reels style) -->
+  <!-- Top Tag -->
+  <g transform="translate(30, 60)">
+    <rect width="140" height="32" rx="16" fill="rgba(255,255,255,0.15)" backdrop-filter="blur(10px)" />
+    <text x="20" y="21" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">FORMAT REELS 9:16</text>
+  </g>
+
+  <!-- Product Illustration (Watch / Luxury Sneaker) -->
+  <g transform="translate(225, 380)">
+    <!-- Shadow -->
+    <ellipse cx="0" cy="90" rx="110" ry="24" fill="rgba(0,0,0,0.6)" />
+    <!-- Stylized Modern Product (Luxury Watch or Sneaker representation) -->
+    <rect x="-80" y="-80" width="160" height="160" rx="30" fill="url(#accentOrange)" opacity="0.15" />
+    <circle cx="0" cy="0" r="75" fill="#1E293B" stroke="url(#accentOrange)" stroke-width="4" />
+    <circle cx="0" cy="0" r="62" fill="#0A2540" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
+    <!-- Watch Hands -->
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#FF7A00" stroke-width="4" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="28" y2="15" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="5" fill="#FF7A00" />
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#94A3B8" text-anchor="middle">EDITION PRO</text>
+  </g>
+
+  <!-- Video Floating Ad Elements (Hook, Price Tag, Call To Action) -->
+  <g transform="translate(30, 180)">
+    <rect width="230" height="42" rx="10" fill="#FF7A00" />
+    <text x="18" y="27" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">NOUVELLE COLLECTION</text>
+  </g>
+  
+  <g transform="translate(30, 232)">
+    <rect width="180" height="34" rx="8" fill="rgba(0,0,0,0.7)" />
+    <text x="14" y="23" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700" fill="#22C55E">DISPONIBLE À DOUALA</text>
+  </g>
+
+  <!-- Sound & Music Bar (Mockup) -->
+  <g transform="translate(30, 680)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">Votre Produit en Vidéo</text>
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#94A3B8">Musique rythmée • Sous-titres dynamiques</text>
+    <!-- Audio Wave -->
+    <g transform="translate(0, 36)" fill="#FF7A00">
+      <rect x="0" y="2" width="3" height="12" rx="1.5" />
+      <rect x="6" y="-4" width="3" height="24" rx="1.5" />
+      <rect x="12" y="4" width="3" height="8" rx="1.5" />
+      <rect x="18" y="-8" width="3" height="32" rx="1.5" />
+      <rect x="24" y="0" width="3" height="16" rx="1.5" />
+      <rect x="30" y="-2" width="3" height="20" rx="1.5" />
+      <rect x="36" y="5" width="3" height="6" rx="1.5" />
+    </g>
+  </g>
+
+  <!-- Right Side Social Icons (TikTok / Reels style) -->
+  <g transform="translate(390, 520)" fill="rgba(255,255,255,0.9)">
+    <circle cx="16" cy="16" r="20" fill="rgba(255,255,255,0.12)" />
+    <!-- Heart icon -->
+    <path d="M16 11c-2-3-6-2-7 1-.9 2.5 1 5 7 10 6-5 7.9-7.5 7-10-1-3-5-4-7-1z" fill="#FF4500"/>
+    <circle cx="16" cy="68" r="20" fill="rgba(255,255,255,0.12)" />
+    <!-- WhatsApp Share -->
+    <circle cx="16" cy="68" r="10" fill="#25D366" />
+    <circle cx="16" cy="120" r="20" fill="rgba(255,255,255,0.12)" />
+    <!-- Order tag -->
+    <polygon points="12,114 22,120 12,126" fill="#FFFFFF" />
+  </g>
+
+  <!-- Big Central Play Badge (Click to play / preview indicator) -->
+  <g transform="translate(225, 400)">
+    <circle cx="0" cy="0" r="44" fill="rgba(10, 37, 64, 0.85)" stroke="#FF7A00" stroke-width="3" />
+    <polygon points="-8,-16 18,0 -8,16" fill="#FFFFFF" />
+  </g>
+
+  <!-- Bottom Border Highlight -->
+  <rect x="150" y="784" width="150" height="4" rx="2" fill="rgba(255,255,255,0.4)" />
+</svg>
