@@ -268,7 +268,7 @@ export const GOPRIME_CONFIG = {
     before: {
       tag: 'Point de départ',
       label: 'Photo du produit',
-      image: '/videos/IMG-20260822-WA0021.jpg',
+      image: '/videos/masque-facial.jpg',
       title: 'Une photo simple prise avec votre smartphone',
       desc: 'Vous prenez vous-même 1 à 3 photos claires de votre article (ici, un masque facial de protection) avec la caméra de votre téléphone et vous nous les envoyez directement sur WhatsApp.',
       highlight: 'Aucun matériel professionnel requis'
@@ -276,7 +276,7 @@ export const GOPRIME_CONFIG = {
     after: {
       tag: 'Livrable GoPrime',
       label: 'Vidéo publicitaire finale',
-      image: '/videos/IMG-20260822-WA0021.jpg',
+      image: '/videos/masque-facial.jpg',
       videoSrc: '/videos/pub masque faciale.mp4',
       title: 'Une vidéo verticale 9:16 rythmée & animée',
       desc: 'Mise en scène dynamique du masque facial avec effets visuels, titrage accrocheur dès les premières secondes, musique rythmée et appel clair à commander sur WhatsApp.',
